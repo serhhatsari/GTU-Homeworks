@@ -1,0 +1,17 @@
+                 
+                 
+    P   P   P    
+  P P P P P P P  
+    P P P P P    
+  P P P . P P P  
+    P P P P P    
+  P P P P P P P  
+    P   P   P    
+                 
+                 
+---GAME INFO--- 
+
+HUMAN OR COMPUTER: ARBİTRARY
+NUMBER OF MOVES: 0 
+ROW NUMBER: 11
+COLUMN NUMBER: 17

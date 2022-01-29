@@ -1,0 +1,21 @@
+                     
+                     
+          P          
+        P P          
+        P P P        
+      P P P P P P    
+  P P P P . P P P P  
+    P P P P P P      
+        P P P        
+          P P        
+          P          
+                     
+                     
+---GAME INFO--- 
+
+GAME NAME:arbit2.
+BOARD TYPE:8.
+UPPER WORD:   A B C D E F G H I.
+ROW NUMBER:13.
+COLUMN NUMBER:21.
+GAME TYPE:1.
