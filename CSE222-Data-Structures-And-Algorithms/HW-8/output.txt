@@ -1,0 +1,67 @@
+cd bin ; java Driver
+TESTING Q1
+
+
+addVertex() TEST
+getNumV() TEST
+Number of vertices in the graph: 3
+isDirected() TEST
+Is graph directed: false
+printGraph() TEST
+Graph: 
+0: 
+1: 
+2: 
+addEdge() TEST
+Graph: 
+0: [(0, 2): 2.0]
+1: [(1, 2): 3.0]
+2: [(2, 0): 2.0][(2, 1): 3.0]
+insert() TEST
+Graph: 
+0: [(0, 2): 2.0][(0, 1): 1.0]
+1: [(1, 2): 3.0][(1, 0): 1.0]
+2: [(2, 0): 2.0][(2, 1): 3.0]
+isEdge() TEST
+isEdge 0 - 2 : true
+getEdge() TEST
+getEdge 0 - 2: [(0, 2): 2.0]
+newVertex() TEST
+newVertex method: src.DynamicGraph$Vertex@2
+exportMatrix() TEST
+exportMatrix: 
+0.0 1.0 1.0 
+1.0 0.0 1.0 
+1.0 1.0 0.0 
+removeVertex() TEST
+Graph: 
+0: [(0, 1): 1.0]
+1: [(1, 0): 1.0]
+removeEdge() TEST
+Graph: 
+0: 
+1: 
+filterVertices() TEST
+Graph: 
+0: [(0, 1): 3.0]
+1: [(1, 0): 3.0]
+AS YOU CAN SEE ALL METHODS WORKS CORRECTLY!
+
+
+TESTING Q2
+DFS PARENT ARRAY:
+-1 0 1 2 3 
+BFS PARENT ARRAY:
+-1 0 0 4 0 
+DFS Total: 26
+BFS Total: 10
+Total Difference 16
+
+
+TESTING Q3
+For this problem, 
+I used the exact example in the PDF
+PRED ARRAY:
+0 0 1 
+DIST ARRAY:
+0.0 4.0 7.0 

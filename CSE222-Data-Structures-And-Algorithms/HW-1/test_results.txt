@@ -1,0 +1,679 @@
+----------TESTING--------
+
+  1:TESTING CONSTRUCTERS
+
+1.1: Testing Default Constructers
+
+Testing the Default constructer of the Building Class
+Default constructer of the building class has worked correctly.
+
+Testing the Default constructer of the House Class
+Default constructer of the house class has worked correctly.
+
+Testing the Default constructer of the Office Class
+Default constructer of the office class has worked correctly.
+
+Testing the Default constructer of the Market Class
+Default constructer of the market class has worked correctly.
+
+Testing the Default constructer of the Playground Class
+Default constructer of the playground class has worked correctly.
+
+Testing the Default constructer of the Street Class
+Default constructer of the street class has worked correctly.
+
+
+1.2: Testing Parameterized Constructers
+
+Testing the Parameterized constructer of the Building Class
+Parameterized constructer of the building class has worked correctly.
+
+Testing the Parameterized constructer of the House Class
+Parameterized constructer of the house class has worked correctly.
+
+Testing the Parameterized constructer of the Office Class
+Parameterized constructer of the office class has worked correctly.
+
+Testing the Parameterized constructer of the Market Class
+Parameterized constructer of the market class has worked correctly.
+
+Testing the Parameterized constructer of the Playground Class
+Parameterized constructer of the playground class has worked correctly.
+
+Testing the Parameterized constructer of the Street Class
+Parameterized constructer of the street class has worked correctly.
+
+
+
+  2:TESTING EDIT MODE
+
+
+2.1 TESTING ADD MODE
+Lets create an street, then add all kind of buildings on it
+
+2.1.1: Lets add a house to the street
+
+BUILDING HAS BEEN ADDED TO STREET.
+
+We added a house to the street.
+Lets display the list of the buildings and skyline silhouette of the street
+
+1.BUILDING:
+
+HOUSE INFO: 
+Position: 1
+Length: 10
+Height: 15
+Street Side: Right
+Number of Rooms: 3
+Color: Yellow
+Owner: Yusuf
+
+
+Skyline silhouette of the street
+
+ ***********                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+##################################################
+
+*As it can be seen, house has been added to street.
+
+2.1.2: Lets add a market to the street
+
+BUILDING HAS BEEN ADDED TO STREET.
+
+We added a market to the street.
+Lets display the list of the buildings and skyline silhouette of the street
+
+1.BUILDING:
+
+HOUSE INFO: 
+Position: 1
+Length: 10
+Height: 15
+Street Side: Right
+Number of Rooms: 3
+Color: Yellow
+Owner: Yusuf
+
+2.BUILDING:
+
+MARKET INFO: 
+Position: 5
+Length: 12
+Height: 10
+Street Side: Left
+Opening Time: 09:30
+Closing Time: 21:30
+Owner: Ahmet
+
+
+Skyline silhouette of the street
+
+ ***********                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *******                                
+ *               *                                
+ *               *                                
+ *               *                                
+ *               *                                
+ *               *                                
+ *               *                                
+ *               *                                
+ *               *                                
+ *               *                                
+##################################################
+
+*As it can be seen, market has been added to street.
+
+2.1.3: Lets add a office to the street
+
+BUILDING HAS BEEN ADDED TO STREET.
+
+We added a office to the street.
+Lets display the list of the buildings and skyline silhouette of the street
+
+1.BUILDING:
+
+HOUSE INFO: 
+Position: 1
+Length: 10
+Height: 15
+Street Side: Right
+Number of Rooms: 3
+Color: Yellow
+Owner: Yusuf
+
+2.BUILDING:
+
+MARKET INFO: 
+Position: 5
+Length: 12
+Height: 10
+Street Side: Left
+Opening Time: 09:30
+Closing Time: 21:30
+Owner: Ahmet
+
+3.BUILDING:
+
+OFFICE INFO: 
+Position: 12
+Length: 12
+Height: 7
+Street Side: Right
+Job Type: Software
+Owner: Akif
+
+
+Skyline silhouette of the street
+
+ ***********                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *******                                
+ *               *                                
+ *               *                                
+ *               ********                         
+ *                      *                         
+ *                      *                         
+ *                      *                         
+ *                      *                         
+ *                      *                         
+ *                      *                         
+##################################################
+
+*As it can be seen, office has been added to street.
+
+2.1.4: Lets add a playground to the street
+
+BUILDING HAS BEEN ADDED TO STREET.
+
+We added a playground to the street.
+Lets display the list of the buildings and skyline silhouette of the street
+
+1.BUILDING:
+
+HOUSE INFO: 
+Position: 1
+Length: 10
+Height: 15
+Street Side: Right
+Number of Rooms: 3
+Color: Yellow
+Owner: Yusuf
+
+2.BUILDING:
+
+MARKET INFO: 
+Position: 5
+Length: 12
+Height: 10
+Street Side: Left
+Opening Time: 09:30
+Closing Time: 21:30
+Owner: Ahmet
+
+3.BUILDING:
+
+OFFICE INFO: 
+Position: 12
+Length: 12
+Height: 7
+Street Side: Right
+Job Type: Software
+Owner: Akif
+
+4.BUILDING
+
+PLAYGROUND INFO: 
+Position: 20
+Length: 10
+Height: 5
+Street Side: Left
+
+
+Skyline silhouette of the street
+
+ ***********                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *******                                
+ *               *                                
+ *               *                                
+ *               ********                         
+ *                      *                         
+ *                      *******                   
+ *                            *                   
+ *                            *                   
+ *                            *                   
+ *                            *                   
+##################################################
+
+*As it can be seen, playground has been added to street.
+
+
+2.2 TESTING DELETE MODE
+
+Lets delete some of the buildings on the street
+First, lets see the list of buildings
+
+LIST OF BUILDINGS
+1: Type = House, Street Side = Right, Position = 1
+2: Type = Market, Street Side = Left, Position = 5
+3: Type = Office, Street Side = Right, Position = 12
+4: Type = Playground, Street Side = Left, Position = 20
+
+Lets delete the first building in the list
+
+
+BEFORE deleting the first building:
+
+Skyline silhouette of the street
+
+ ***********                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *                                      
+ *         *******                                
+ *               *                                
+ *               *                                
+ *               ********                         
+ *                      *                         
+ *                      *******                   
+ *                            *                   
+ *                            *                   
+ *                            *                   
+ *                            *                   
+##################################################
+
+AFTER deleting the first building:
+
+BUILDING HAS BEEN DELETED.
+
+Skyline silhouette of the street
+
+     *************                                
+     *           *                                
+     *           *                                
+     *           ********                         
+     *                  *                         
+     *                  *******                   
+     *                        *                   
+     *                        *                   
+     *                        *                   
+     *                        *                   
+##################################################
+
+As you can see, we deleted the first building correctly.
+
+
+Lets delete one more building
+First, lets see the list of buildings
+
+LIST OF BUILDINGS
+1: Type = Market, Street Side = Left, Position = 5
+2: Type = Office, Street Side = Right, Position = 12
+3: Type = Playground, Street Side = Left, Position = 20
+
+Lets delete the second building in the list
+
+
+BEFORE deleting the second building:
+
+Skyline silhouette of the street
+
+     *************                                
+     *           *                                
+     *           *                                
+     *           ********                         
+     *                  *                         
+     *                  *******                   
+     *                        *                   
+     *                        *                   
+     *                        *                   
+     *                        *                   
+##################################################
+
+AFTER deleting the second building:
+
+BUILDING HAS BEEN DELETED.
+
+Skyline silhouette of the street
+
+     *************                                
+     *           *                                
+     *           *                                
+     *           *                                
+     *           *                                
+     *           *  ***********                   
+     *           *  *         *                   
+     *           *  *         *                   
+     *           *  *         *                   
+     *           *  *         *                   
+##################################################
+
+As you can see, we deleted the second building correctly.
+
+
+  3:TESTING VIEW MODE and FOCUS
+
+Lets create a new street with length 50 and add some buildings on it
+
+BUILDING HAS BEEN ADDED TO STREET.
+
+BUILDING HAS BEEN ADDED TO STREET.
+
+BUILDING HAS BEEN ADDED TO STREET.
+
+BUILDING HAS BEEN ADDED TO STREET.
+
+We add 4 buildings to the street, lets test the methods
+
+
+3.1: Testing displaying the list of buildings on the street.
+
+1.BUILDING:
+
+HOUSE INFO: 
+Position: 10
+Length: 6
+Height: 15
+Street Side: Right
+Number of Rooms: 3
+Color: Yellow
+Owner: Yusuf
+
+2.BUILDING:
+
+MARKET INFO: 
+Position: 2
+Length: 12
+Height: 10
+Street Side: Left
+Opening Time: 09:30
+Closing Time: 21:30
+Owner: Ahmet
+
+3.BUILDING:
+
+OFFICE INFO: 
+Position: 18
+Length: 12
+Height: 5
+Street Side: Right
+Job Type: Software
+Owner: Akif
+
+4.BUILDING
+
+PLAYGROUND INFO: 
+Position: 20
+Length: 10
+Height: 18
+Street Side: Left
+
+
+As you can see, the details of the buildings are displayed.
+
+
+
+3.2: Testing displaying the number and ratio of lenth of playgrounds in the street.
+
+
+Number of playgrounds: 1
+Ratio of lenth of playgrounds in the street: 0.1
+
+As you can see, the the number and ratio of lenth of playgrounds in the street are displayed.
+
+
+
+3.3: Testing the total length of street occupied by the markets, houses or offices.
+
+
+TOTAL LENGTHS
+Total Length of Markets: 12
+Total Length of Houses: 6
+Total Length of Offices: 12
+
+As you can see, the total length of street occupied by the markets, houses or offices are displayed.
+
+
+3.4: Testing displaying the total remaining length of lands on the street.
+
+
+Remaining Length: 60
+
+Street's length was 50, considering both sides, it means 100br.
+We used the 40br of the street (12 br for house, 12 br for market, 10 br for playground, 6 br for house)
+As you can see, remaining length is 60br.
+
+
+3.5: Testing the skyline silhouette of the street.
+
+Skyline silhouette of the street
+
+                    ***********                   
+                    *         *                   
+                    *         *                   
+          *******   *         *                   
+          *     *   *         *                   
+          *     *   *         *                   
+          *     *   *         *                   
+          *     *   *         *                   
+  *********     *   *         *                   
+  *             *   *         *                   
+  *             *   *         *                   
+  *             *   *         *                   
+  *             *   *         *                   
+  *             * ***         *                   
+  *             * *           *                   
+  *             * *           *                   
+  *             * *           *                   
+  *             * *           *                   
+##################################################
+As you can see, the skyline silhouette of the street İS displayed.
+
+
+
+TESTING THE FOCUS MODE
+
+Lets test the focus mode with house
+First, lets see the list of the buildings
+
+LIST OF BUILDINGS
+1: Type = House, Street Side = Right, Position = 10
+2: Type = Market, Street Side = Left, Position = 2
+3: Type = Office, Street Side = Right, Position = 18
+4: Type = Playground, Street Side = Left, Position = 20
+
+Lets focus on the first building
+
+Focusing on house:
+Owner of the house: Yusuf
+As you can see, we focused on the first building.
+
+Lets test the focus mode with market
+First, lets see the list of the buildings
+
+LIST OF BUILDINGS
+1: Type = House, Street Side = Right, Position = 10
+2: Type = Market, Street Side = Left, Position = 2
+3: Type = Office, Street Side = Right, Position = 18
+4: Type = Playground, Street Side = Left, Position = 20
+
+Lets focus on the second building
+
+Focusing on market:
+Closing time of the market: 21:30
+As you can see, we focused on the second building.
+
+Lets test the focus mode with office
+First, lets see the list of the buildings
+
+LIST OF BUILDINGS
+1: Type = House, Street Side = Right, Position = 10
+2: Type = Market, Street Side = Left, Position = 2
+3: Type = Office, Street Side = Right, Position = 18
+4: Type = Playground, Street Side = Left, Position = 20
+
+Lets focus on the third building
+
+Focusing on office:
+Job type of the office: Software
+As you can see, we focused on the third building.
+
+Lets test the focus mode with market
+First, lets see the list of the buildings
+
+LIST OF BUILDINGS
+1: Type = House, Street Side = Right, Position = 10
+2: Type = Market, Street Side = Left, Position = 2
+3: Type = Office, Street Side = Right, Position = 18
+4: Type = Playground, Street Side = Left, Position = 20
+
+Lets focus on the fourth building
+
+Focusing on playground:
+Length of the playground: 10
+As you can see, we focus on the fourth building.
+
+
+  4:TESTING OVERRIDEN METHODS
+
+
+4.1: TESTING .toString() METHOD
+4.1.1: Lets create a house object and test toString method with it
+
+HOUSE INFO: 
+Position: 1
+Length: 5
+Height: 5
+Street Side: Left
+Number of Rooms: 3
+Color: Yellow
+Owner: Ersel
+
+
+ As you can see, toString method of House class worked correctly.
+4.1.2: Lets create a office object and test toString method with it
+
+OFFICE INFO: 
+Position: 1
+Length: 12
+Height: 7
+Street Side: Right
+Job Type: Software
+Owner: Akif
+
+
+ As you can see, toString method of office class worked correctly.
+
+4.2: TESTING .equals() METHOD
+4.2.1: Lets create a 2 house with the same values.
+Lets print the details of these 2 houses with toString
+House 1:
+
+HOUSE INFO: 
+Position: 1
+Length: 5
+Height: 5
+Street Side: Left
+Number of Rooms: 3
+Color: Yellow
+Owner: Ersel
+
+House 2:
+
+HOUSE INFO: 
+Position: 1
+Length: 5
+Height: 5
+Street Side: Left
+Number of Rooms: 3
+Color: Yellow
+Owner: Ersel
+
+Lets check equality of these 2 houses with .equals method
+HOUSES ARE EQUAL.
+
+As you can see, houses are equal.
+That means .equals method works correctly.
+4.2.1: Lets create a 2 house with different values.
+Lets print the details of these 2 houses with toString
+House 1:
+
+HOUSE INFO: 
+Position: 3
+Length: 5
+Height: 12
+Street Side: Right
+Number of Rooms: 5
+Color: Red
+Owner: Bilge
+
+House 2:
+
+HOUSE INFO: 
+Position: 1
+Length: 5
+Height: 5
+Street Side: Left
+Number of Rooms: 3
+Color: Yellow
+Owner: Ersel
+
+Lets check equality of these 2 houses with .equals method
+HOUSES ARE EQUAL.
+
+As you can see, houses are NOT equal, because values of the houses are different.
+That means .equals method works correctly.
+
+4.3: TESTING .hashCode() METHOD
+
+Lets create 2 house objects and print their hashCodes
+Hashcode of the first house: -1790729440
+Hashcode of the second house: 544203796
+
+4.4: TESTING .clone() METHOD
+
+Lets test clone method with house object
+
+Clone method worked correctly.
+
+
+  5:TESTING EXCEPTIONS
+
+
+Lets test what happens if we try give negative value for the length of the street
+As you can see, exception has been thrown
+
+Lets test what happens if we try to give negative value to position
+As you can see, exception has been thrown
+
+Lets test what happens if we try to give negative value to length
+As you can see, exception has been thrown
+
+Lets test what happens if we try to give negative value to height
+As you can see, exception has been thrown
