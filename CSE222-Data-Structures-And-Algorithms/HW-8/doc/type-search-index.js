@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"src","l":"BreadthFirstSearch"},{"p":"src","l":"DepthFirstSearch"},{"p":"src","l":"DijkstrasAlgorithm"},{"p":"src","l":"DynamicGraph"},{"p":"src","l":"Edge"},{"p":"src","l":"Graph"},{"p":"src","l":"MyGraph"},{"p":"src","l":"Q2"},{"p":"src","l":"DynamicGraph.Vertex"}];updateSearchResults();
