@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/serhat/Desktop/hws/GTU-CSE-Homeworks'
+make: Leaving directory '/home/serhat/Desktop/hws/GTU-CSE-Homeworks'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
