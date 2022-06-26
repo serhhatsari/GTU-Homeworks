@@ -3,7 +3,7 @@
 Subjects: C Programming Language (Control Structures, Functions and Arrays, Pointers and Strings, Structures, File processing)  
   
 [CSE108 - Computer Programming Lab](https://github.com/serhhatsari/GTU-Homeworks/tree/master/CSE108-Programming-Lab) (2020 - 2021 Spring)  
-Subjects: C Programming Language
+Subjects: C Programming Language (Control Structures, Functions and Arrays, Pointers and Strings, Structures, File processing)  
 
 [CSE241 - Object Orientend Programming](https://github.com/serhhatsari/GTU-Homeworks/tree/master/CSE241-Object-Oriented-Programming) (2021 - 2022 Autumn)  
 Subjects: OOP Principles, C++ and Java
