@@ -9,4 +9,4 @@ Subjects: C Programming Language (Control Structures, Functions and Arrays, Poin
 Subjects: OOP Principles, C++ and Java (Classes and Data Abstraction, Operator Overloading, Inheritance, 	Virtual Functions and Polymorphism, 	Templates, Exception Handling, 	Standard Template Library)  
 
 [CSE222- Data Structures And Algorithm](https://github.com/serhhatsari/GTU-Homeworks/tree/master/CSE222-Data-Structures-And-Algorithms) (2021 - 2022 Spring)   
-Subjects: Advanced Data Structures, Algorithm Analysis, Java
+Subjects: Advanced Data Structures, Algorithm Analysis and Java ( Algorithm Analysis, Sequential Containers, LinkedList, Stack, Queue, Recursion, Trees, Maps and Sets, Sorting Algorithms, Self Balancing Trees, Graphs)  
